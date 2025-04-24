@@ -70,9 +70,16 @@ int main(){
     printf("\n");
 
     // Comparação de cartas
-    printf("Comparação de cartas (atributo: população)\n");
+    printf("Comparação de cartas (atributo: população):\n");
     printf("Carta 1: São Paulo: %d\n", PopulacaoSP);
     printf("Carta 2: Rio de Janeiro %d\n", PopulacaoRJ);
     
+    if(PopulacaoSP > PopulacaoRJ){
+        printf("Carta 1 (São Paulo) venceu!\n");
+    }else{
+        printf("Carta 2 (Rio de Janeiro) venceu!\n");
+    }
+    printf("\n");
+
     return 0;
 }
